@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Coluna";
+    src: url("res/fonts/Coluna.otf") format("truetype");
+}
+
+@font-face{
+    font-family: "AkiraExpanded";
+    src: url("res/fonts/AkiraExpanded.otf") format("truetype");
+}
+
+@font-face{
+    font-family: "Kalnia";
+    src: url("res/fonts/Kalnia.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "Teko";
+    src: url("res/fonts/Teko.ttf") format("truetype");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("res/imgs/main-banner-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes header-name{
+    0% { font-stretch: 200%; }
+    100% { font-stretch: 100%; }
+}
+
+.header{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    
+    font-size: 5em;
+    font-family: "Kalnia";
+    font-stretch: 200%;
+    color: white;
+
+    animation-name: header-name;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(0, 0.92, 0.42, 1.02);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.surname{
+    top: 50%;
+
+    font-stretch: 70%;
+
+    animation: none;
+}

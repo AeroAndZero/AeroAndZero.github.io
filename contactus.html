@@ -1,0 +1,44 @@
+<script>
+    async function sendContact(){
+        let formData = new FormData()
+        formData.append("access_key", "ea49fb3b-ab53-43c3-b767-2cebf4f836dc")
+        formData.append("name", document.getElementById("cfName").value)
+        formData.append("number", document.getElementById("cfNumber").value)
+        formData.append("email", document.getElementById("cfEmail").value)
+        formData.append("message", document.getElementById("cfMessage").value)
+
+        let response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData,
+        });
+
+        result = await response.json();
+
+        if(result.success){
+            document.getElementById("cfResponse").innerText = "Data has been sent!"
+        }else{
+            document.getElementById("cfResponse").innerText = "Message failed to send."
+        }
+
+        setTimeout(() => {document.getElementById("cfResponse").innerText = ""}, 3000);
+    }
+</script>
+
+<!--- <form action="https://api.web3forms.com/submit" method="POST"> --->
+<form>
+
+    <input type="hidden" name="access_key" value="ea49fb3b-ab53-43c3-b767-2cebf4f836dc">
+
+    <input type="text" name="Name" placeholder="Name" id="cfName" required>
+    <input type="number" name="Number" placeholder="Number" id="cfNumber" required>
+    <input type="email" name="Email" placeholder="Email address" id="cfEmail" required>
+    <textarea name="message" id="cfMessage" placeholder="Your message" required></textarea>
+    
+    <button type="button" onclick="sendContact()">Submit Form</button>
+
+</form>
+
+<div id="cfResponse"></div>
+
+
+<script src="https://web3forms.com/client/script.js" async defer></script>

@@ -196,8 +196,28 @@ body{
     bottom: 10px;
 }
 
+.bottom-20{
+    bottom: 20px;
+}
+
 .bottom-40{
     bottom: 40px;
+}
+
+.bottom--20p{
+    bottom: -20%;
+}
+
+.top-auto{
+    top: auto;
+}
+
+.top-40{
+    top: 40px;
+}
+
+.left-50p{
+    left: 50%;
 }
 
 /* Margin and padding */
@@ -236,6 +256,14 @@ body{
 .m-auto{
     margin-left: auto;
     margin-right: auto;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+
+.mr-20{
+    margin-right: 20px;
 }
 
 .p-0{
@@ -296,6 +324,10 @@ body{
 
 .gap-40{
     gap: 40px;
+}
+
+.overflow-hidden{
+    overflow: hidden;
 }
 
 /* Text styles */
@@ -473,7 +505,15 @@ a:hover{
 }
 
 .animate-everything{
-    transition: all 1s ease-out;
+    transition: all 0.4s ease;
+}
+
+.fullscreen-video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
 }
 
 /* media queries */

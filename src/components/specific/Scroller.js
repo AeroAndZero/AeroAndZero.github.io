@@ -1,28 +1,38 @@
 import '../../styles/common.css';
 import '../../styles/Scroller.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Scroller(props){
     let [select, setSelect] = useState(0);
-    let isHidden = false;
+    let [hidden, setHidden] = useState(true);
 
     // show if the page is in the middle
-    // if(window.scrollY / document.body.scrollHeight > 0.75 || window.scrollY / document.body.scrollHeight < 0.2){
-    //     isHidden = true;
-    // }else{
-    //     isHidden = false;
-    // }
-    // console.log("Is hidden: " + isHidden)
+    useEffect(() => {
+        const onScroll = (event) => {
+            if(window.scrollY / document.body.scrollHeight > 0.8 || window.scrollY / document.body.scrollHeight < 0.1){
+                setHidden(true);
+            }else{
+                setHidden(false);
+            }
+            console.log(window.scrollY / document.body.scrollHeight);
+        }
+          
+        window.addEventListener('scroll', onScroll);
+        
+        return () => {
+          window.removeEventListener('scroll', onScroll);
+        }
+    }, [hidden]);
     
     let elements = props.elements.map((element, index) => (
-        <a href={element.href} onClick={() => setSelect(index)} className={'b-radius-10 p-10 ' + (select === index ? 'bg-anchor' : '')} key={index}>
+        <a href={element.href} onClick={() => setSelect(index)} className={'text-center b-radius-10 p-10 ' + (select === index ? 'bg-anchor' : '')} key={index}>
             {element.name}
         </a>
     ))
 
     return(
-        <div className={'fixed w-full h-full flex flex-center ' + (isHidden ? 'hide' : '')  }>
-            <div className='absolute bottom-10 b-radius-10 bg-black-glass flex flex-center flex-row p-10 w-fit h-fit m-20'>
+        <div className={'fixed w-full h-fit bottom-20 top-auto flex flex-center animate-everything ' + (hidden ? 'bottom--20p' : '')}>
+            <div className='bottom-10 b-radius-10 bg-black-glass flex flex-center flex-row p-10 w-fit h-fit ml-20 mr-20'>
                 {elements}
             </div>
         </div>

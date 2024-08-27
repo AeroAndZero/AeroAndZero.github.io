@@ -1,5 +1,6 @@
 .hero-content{
-    background-image: linear-gradient(30deg,#78A083, #50727B, #344955, #35374B);
+    background-image: linear-gradient(30deg,#78a083eb, #50727beb, #344955eb, #35374beb);
+    background-blend-mode: multiply;
 
     height: 90%;
     width: 90%;

@@ -1,0 +1,27 @@
+.bg-about {
+    background: linear-gradient(270deg, #4d816c, #947047);
+    background-size: 400% 400%;
+
+    -webkit-animation: FlashGradient 6s ease infinite;
+    -moz-animation: FlashGradient 6s ease infinite;
+    animation: FlashGradient 6s ease infinite;
+
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+@-webkit-keyframes FlashGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes FlashGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes FlashGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

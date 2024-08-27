@@ -1,0 +1,9 @@
+.hero-content{
+    background-image: linear-gradient(30deg,#78A083, #50727B, #344955, #35374B);
+
+    height: 90%;
+    width: 90%;
+
+    border-radius: 20px;
+    border: 4px solid var(--third);
+}

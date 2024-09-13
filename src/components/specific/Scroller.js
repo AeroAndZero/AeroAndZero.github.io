@@ -14,7 +14,7 @@ export default function Scroller(props){
             }else{
                 setHidden(false);
             }
-            console.log(window.scrollY / document.body.scrollHeight);
+            // console.log(window.scrollY / document.body.scrollHeight);
         }
           
         window.addEventListener('scroll', onScroll);

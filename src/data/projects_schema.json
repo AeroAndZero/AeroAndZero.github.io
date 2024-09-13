@@ -1,0 +1,34 @@
+{
+    "category_name":[
+        {
+            "id": "",
+            "name" : "",
+            "company": "",
+            "role":"",
+            "duration":"",
+            "media":{
+                "youtubeID": "",
+                "imgAlt":"",
+                "thumbnail" : "",
+                "playableUrl":"",
+                "images":{
+                    "caption" : ""
+                },
+                "videos":{
+                    "caption": ""
+                }
+            },
+            "tag": "",
+            "technology":[
+                "",
+                ""
+            ],
+            "learnings":[
+                "",
+                ""
+            ],
+            "description" : "",
+            "details":""
+        }
+    ]
+}

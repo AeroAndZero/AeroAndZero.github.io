@@ -1,7 +1,7 @@
 import '../../styles/common.css';
 import '../../styles/Hero.css';
 
-import imgTee from '../../assets/images/tee.png';
+import imgTee from '../../assets/images/tee 3.png';
 
 export default function Tee(){
     return (

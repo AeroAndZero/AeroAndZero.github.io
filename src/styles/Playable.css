@@ -13,6 +13,13 @@
     height: 100%;
 }
 
+.playable-iframe{
+    width: 100%;
+    height: 100%;
+    min-height: 270px;
+    
+}
+
 .playable-desc{
     box-sizing: border-box;
     background-color: var(--background-elevated);
@@ -26,4 +33,8 @@
 .playable:hover{
     cursor: pointer;
     background-color: var(--background-highlight);
+}
+
+.anti-a:hover{
+    text-decoration: none;
 }

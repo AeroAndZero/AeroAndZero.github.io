@@ -1,0 +1,152 @@
+{
+    "vr": [
+        {
+            "id": "total-knee-replacement",
+            "name" : "Total Knee Replacement Surgery",
+            "company": "MadVR Solutions",
+            "media":{
+                "youtubeID": "pexUZed36m4",
+                "imgAlt":"Total Knee Replacement Surgery",
+                "thumbnail" : "https://i.ytimg.com/vi/pexUZed36m4/hqdefault.jpg",
+                "playableUrl":"https://youtu.be/pexUZed36m4",
+                "images":{
+                    "Transparent Shader" : "/img/projects/tkr/tkr_transparent_shader.png"
+                },
+                "videos":{
+                    "Marking using shaders": "XTqUE8DtYNw"
+                }
+            },
+            "tag": "Made with Unity 3D",
+            "description" : "Revolutionizing surgical training with the most immersive, realistic and medically accurate portable surgical simulator",
+            "role":"VR Developer (Team Lead)",
+            "duration":"May 2023 - Dec 2023",
+            "technology":[
+                "Unity 3D",
+                "Blender",
+                "C#",
+                "OpenXR SDK",
+                "Shader graph",
+                "Reverse Kinematics",
+                "Photoshop"
+            ],
+            "learnings":[
+                "Controlling animations based on hand pos and events",
+                "Optimizing models for the VR",
+                "Using shader graphs for utilizing effects rather than geometries"
+            ],
+            "details":"<b>bro wtf</b><h1>is this</h1>"
+        },
+        {
+            "id":"adani-metaverse",
+            "name":"Adani Metaverse",
+            "company": "Exposit w/ Adani",
+            "media": {
+                "youtubeID":"4Pj93NI-i_o",
+                "imgAlt":"Adani Metaverse",
+                "thumbnail":"/img/projects/adani-metaverse/middle.png",
+                "playableUrl":"https://youtu.be/4Pj93NI-i_o",
+                "images":{
+                    "Brand logo and branding":"/img/projects/adani-metaverse/middle.png",
+                    "Blood pressure measuring training":"/img/projects/adani-metaverse/male_patient.png",
+                    "Lobby of newly joined players":"/img/projects/adani-metaverse/bridge.png",
+                    "Hospital department training":"/img/projects/adani-metaverse/hospital_departments.png",
+                    "Medical training of emergency":"/img/projects/adani-metaverse/instruction.png",
+                    "Overview of the lobby and departments":"/img/projects/adani-metaverse/overview.png",
+                    "Classroom inside VR":"/img/projects/adani-metaverse/classroom.png",
+                    "Garbage disposal training":"/img/projects/adani-metaverse/dustbin.png",
+                    "Multiplayer in works":"/img/projects/adani-metaverse/multiplayer.png",
+                    "Patient testing":"/img/projects/adani-metaverse/patient_check.png",
+                    "Parallax shader for optimization":"/img/projects/adani-metaverse/parallax.png"
+                },
+                "videos":{
+                    "Adani Metaverse Trailer":"6vFj3Con0dE"
+                }
+            },
+            "description": "A VR Metaverse where employees of an organization can get togther to train new employees and assess their skillset meanwhile providing the best hands-on practical experience. This project uses Normcore SDK for multiplayer and VOIP; along with firebase for data storage and authentication.",
+            "tag":"Made with Unity 3D",
+            "role":"VR Developer",
+            "duration":"March 2023 - April 2023",
+            "technology":[
+                "Unity 3D",
+                "Normcore network",
+                "Parallex shader",
+                "Sketchup",
+                "Photoshop",
+                "Blender 3D",
+                "Firebase firestore",
+                "OpenXR SDK"
+            ],
+            "learnings":[
+                "Connecting to firebase to store and retrieve employee score",
+                "Authentication using firebase",
+                "Creating parallax shader to give fake interior illusion",
+                "Multiplayer, VOIP and collaboration between players using Normcore SDK"
+            ],
+            "details":"This project was created to provide a better way to train new employees with real-life practical hands on training. It is also used to assess an employee's understanding and skills while training. <br/><br/><strong>Some of the features are:</strong> <ul><li>Authenticating and storing data with firebase</li><li>Hands on demonstration using animations</li><li>Learning about different fields of work</li><li>Checking the score of activities across all platforms using firebase connectivity</li></ul><br/>My contribution in this project was to design the landing area of the user, programming mutiplayer with VOIP using normcore, and coding most of the activities and functionalities."
+        },
+        {
+            "id":"vr-arena",
+            "name":"VR Arena",
+            "company": "Exposit",
+            "role":"VR Developer",
+            "duration":"May 2023",
+            "media": {
+                "youtubeID":"ySQo-v9IKbI",
+                "imgAlt":"VR Arena from Exposit",
+                "thumbnail":"/img/projects/vr-arena/vr_arena.png",
+                "playableUrl":"https://youtu.be/ySQo-v9IKbI",
+                "images":{
+                    "Player shooting (1)":"/img/projects/vr-arena/player_shooting_1.png",
+                    "Player shooting (2)":"/img/projects/vr-arena/player_shooting_2.png",
+                    "Player shooting (3)":"/img/projects/vr-arena/player_shooting_3.png",
+                    "Player shooting in real life":"/img/projects/vr-arena/player_shooting_reallife.png"
+                },
+                "videos":{
+                    "VR Arena Demo Reel":"ySQo-v9IKbI"
+                }
+            },
+            "tag":"Made with Unity 3D",
+            "technology":[
+                "Uniy 3D",
+                "Photon PUN",
+                "OpenXR",
+                "Spatial Positioning",
+                "Photon Matchmaking"
+            ],
+            "learnings":[
+                "How to position two real life people in VR accurately for relative positioning",
+                "Connecting players using photon matchmaking",
+                "Implementing multiplayer game using Photon PUN",
+                "Authority of objects for players during a multiplayer game",
+                "Calculating score and match decision in a multiplayer game"
+            ],
+            "description": "A fun spin on arena based games, turning them into virtual blast of entertainment. You are put into a virtual room where you shooting lasers with your virtual guns and elimate the other team in order to win. This project utilizes Photon PUN and spacial positioning and gives off a real-life paintball feeling... but harmless!",
+            "details":""
+        },
+        {
+            "id":"fire-safety",
+            "name":"Fire Safety",
+            "company": "Exposit w/ Adani",
+            "media": {
+                "youtubeID":"6gYccYlf3h8",
+                "imgAlt":"Fire safety training in vr",
+                "thumbnail":"https://i.ytimg.com/vi/6gYccYlf3h8/hqdefault.jpg"
+            },
+            "description": "Watch as new employees undergo immersive fire safety training in a fully simulated virtual environment. Witness firsthand how VR technology is being used to provide realistic and engaging safety education. From learning proper escape routes to practicing fire extinguisher techniques, these trainees are gaining valuable skills in a safe and controlled setting. See the future of workplace safety training in action!"
+        }
+    ],
+    "desktop":[
+        {
+            "id":"kohli-vs-gambhir",
+            "name": "Kohli vs Gambhir",
+            "role": "an Indie Project",
+            "media":{
+                "youtubeID":"L_2Ih88Y2yU",
+                "imgAlt":"Kohli vs Gambhir",
+                "thumbnail":"https://akm-img-a-in.tosshub.com/businesstoday/images/story/202305/kohli_vs_gambhir_video_game-sixteen_nine.jpg",
+                "playableUrl":"https://aeroandzero.github.io/Kohli-VS-Gambhir/"
+            },
+            "description":"A fun take on the whole Virat Kohli vs Gautam Gambhir fight at the IPL that went viral on news channels"
+        }
+    ]
+}

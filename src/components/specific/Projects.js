@@ -1,6 +1,7 @@
 import '../../styles/common.css';
 import TabSelection from '../common/TabSelection';
-import ProjectsVR from './ProjectsVR';
+import ProjectList from './ProjectList';
+import data from '../../data/projects.json';
 
 export default function Projects(){
     return (
@@ -11,9 +12,9 @@ export default function Projects(){
         </div>
         <TabSelection className='flex flex-center flex-column'>
             <TabSelection className='flex flex-center flex-column' tabName='Unity'>
-                <ProjectsVR tabName='VR' />
+                <ProjectList tabName='VR' data={data.vr}/>
                 <div tabName='AR'>ar</div>
-                <div tabName='Desktop'>desktop</div>
+                <ProjectList tabName='Desktop' data={data.desktop}/>
             </TabSelection>
             <TabSelection className='flex flex-center flex-column' tabName='Blender'>
                 <div tabName='Shader'>shader</div>

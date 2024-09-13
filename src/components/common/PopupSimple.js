@@ -23,7 +23,7 @@ export default function PopupSimple(props){
         },2000)
 
         return () => clearInterval(interval)
-    }, [status]);   
+    }, [status, props.afterScroll]); 
 
     return(
         <div className={'fixed flex flex-center flex-column w-full h-full ' + status.hidden }>

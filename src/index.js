@@ -2,13 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import './styles/index.css';
-import App from './App';
-import Footer from './components/common/Footer';
+import router from './Pages';
+import { RouterProvider } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
-	<>
-		<App />
-		<Footer />
-	</>
+	<RouterProvider router={router} />
 );

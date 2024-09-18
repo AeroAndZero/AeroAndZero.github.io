@@ -15,6 +15,9 @@ export default function Footer(){
                 <a href='https://www.instagram.com/aero.n.zero/' target='_blank' rel='noreferrer'>Instagram</a>
             </div>
             <div className='inline w-fit'>
+                <a href='https://aeroandzero.itch.io/' target='_blank' rel='noreferrer'>Itch.io</a>
+            </div>
+            <div className='inline w-fit'>
                 <a href='https://github.com/AeroAndZero' target='_blank' rel='noreferrer'>Github</a>
             </div>
             <div className='inline w-fit'>

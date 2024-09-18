@@ -62,7 +62,6 @@
                     "Adani Metaverse Trailer":"6vFj3Con0dE"
                 }
             },
-            "description": "A VR Metaverse where employees of an organization can get togther to train new employees and assess their skillset meanwhile providing the best hands-on practical experience. This project uses Normcore SDK for multiplayer and VOIP; along with firebase for data storage and authentication.",
             "tag":"Made with Unity 3D",
             "role":"VR Developer",
             "duration":"March 2023 - April 2023",
@@ -82,6 +81,7 @@
                 "Creating parallax shader to give fake interior illusion",
                 "Multiplayer, VOIP and collaboration between players using Normcore SDK"
             ],
+            "description": "A VR Metaverse where employees of an organization can get togther to train new employees and assess their skillset meanwhile providing the best hands-on practical experience. This project uses Normcore SDK for multiplayer and VOIP; along with firebase for data storage and authentication.",
             "details":"This project was created to provide a better way to train new employees with real-life practical hands on training. It is also used to assess an employee's understanding and skills while training. <br/><br/><strong>Some of the features are:</strong> <ul><li>Authenticating and storing data with firebase</li><li>Hands on demonstration using animations</li><li>Learning about different fields of work</li><li>Checking the score of activities across all platforms using firebase connectivity</li></ul><br/>My contribution in this project was to design the landing area of the user, programming mutiplayer with VOIP using normcore, and coding most of the activities and functionalities."
         },
         {
@@ -120,19 +120,44 @@
                 "Authority of objects for players during a multiplayer game",
                 "Calculating score and match decision in a multiplayer game"
             ],
-            "description": "A fun spin on arena based games, turning them into virtual blast of entertainment. You are put into a virtual room where you shooting lasers with your virtual guns and elimate the other team in order to win. This project utilizes Photon PUN and spacial positioning and gives off a real-life paintball feeling... but harmless!",
-            "details":""
+            "description": "A fun spin on arena-based games, turning them into a virtual blast of entertainment. You are put into a virtual room where you shoot lasers with your virtual guns and eliminate the other team to win. This project utilizes Photon PUN and spacial positioning and gives off a real-life paintball feeling... but harmless!",
+            "details":"Players put in a virtual arena, this game allows a first-person shooter type experience between them. You have to score points and eliminate the other team to win providing a harmless paintball-like encounter.<br/><br/>The goal was to create a game where the distane between players in real-life and virtually is approximately the same. This was a challange because of the tracking limit Quest 2 headset has. We overcame this by starting the players on the same spot and have them move to their specific area after they have joined the game. This was proven to be perfect as we did not have a real life arena built prior to this project for testing.<br/><br/>Another issue was to manage the authority of objects between players during the multiplayer game. This created a hold of development but we eventually figured it out. This was one of the most entertaining project we built in a while."
         },
         {
             "id":"fire-safety",
             "name":"Fire Safety",
             "company": "Exposit w/ Adani",
+            "role":"VR Developer",
+            "duration":"February 2023",
             "media": {
-                "youtubeID":"6gYccYlf3h8",
+                "youtubeID":"YFD2iplTv2M",
                 "imgAlt":"Fire safety training in vr",
-                "thumbnail":"https://i.ytimg.com/vi/6gYccYlf3h8/hqdefault.jpg"
+                "thumbnail":"/img/projects/fire-safety/fire_safety.png",
+                "playableUrl":"https://youtu.be/YFD2iplTv2M",
+                "images":{
+                    "Fire hydrant training":"/img/projects/fire-safety/hydrant.png",
+                    "Different classes of fire":"/img/projects/fire-safety/different.png",
+                    "Types of flammable objects training":"/img/projects/fire-safety/types.png"
+                },
+                "videos":{
+                    "Fire safety demo reel":"YFD2iplTv2M"
+                }
             },
-            "description": "Watch as new employees undergo immersive fire safety training in a fully simulated virtual environment. Witness firsthand how VR technology is being used to provide realistic and engaging safety education. From learning proper escape routes to practicing fire extinguisher techniques, these trainees are gaining valuable skills in a safe and controlled setting. See the future of workplace safety training in action!"
+            "technology":[
+                "Unity 3D",
+                "Particle system",
+                "OpenXR SDK",
+                "Blender 3D",
+                "Unity UI for assessment"
+            ],
+            "learnings":[
+                "Creating fire using unity particle system to give fire training",
+                "Using modular UI to create multiple-choice questions for assessment",
+                "Animation and sound design for an immersive experience"
+            ],
+            "tag":"Made with Unity 3D",
+            "description": "A mandatory training every employee must go through to learn the safety procedure that should be caried out in the event of an unexpected fire. This project was made with unity particle system and different animations.",
+            "details":"In the emergency of an unexpected fire, every employee must know the procedure to handle the situation which was the goal of this project. This was developed for a well-known company 'Adani' and their new skill training institute 'Adani Saksham(capable)'<br/><br/>Using unity 3d, we imported their office room from sketchup, and setup the environment to replicate real-life. In Unity, we used animations, particle system, and modular UI to achieve the customer's requirements. <br/><br/>Here the employee first learns about different types of fires, then how to operate a fire hydrant, and then in the end they give a test which shows how effective the training was."
         }
     ],
     "desktop":[
@@ -140,13 +165,248 @@
             "id":"kohli-vs-gambhir",
             "name": "Kohli vs Gambhir",
             "role": "an Indie Project",
+            "duration":"April 2023",
             "media":{
                 "youtubeID":"L_2Ih88Y2yU",
                 "imgAlt":"Kohli vs Gambhir",
-                "thumbnail":"https://akm-img-a-in.tosshub.com/businesstoday/images/story/202305/kohli_vs_gambhir_video_game-sixteen_nine.jpg",
-                "playableUrl":"https://aeroandzero.github.io/Kohli-VS-Gambhir/"
+                "thumbnail":"/img/projects/kohli-vs-gambhir/kohli_vs_gambhir.jpg",
+                "playableUrl":"https://aeroandzero.github.io/Kohli-VS-Gambhir/",
+                "images":{
+                    "Cloth creating in Blender":"/img/projects/kohli-vs-gambhir/blender.png",
+                    "Game testing in Unity":"/img/projects/kohli-vs-gambhir/unity.png",
+                    "Pick a side":"/img/projects/kohli-vs-gambhir/side.png",
+                    "Opening scene 1":"/img/projects/kohli-vs-gambhir/scene1.png",
+                    "Opening scene 2":"/img/projects/kohli-vs-gambhir/scene2.png",
+                    "Game":"/img/projects/kohli-vs-gambhir/game.png",
+                    "End result":"/img/projects/kohli-vs-gambhir/end.png"
+                },
+                "videos":{
+                    "Video that got me famous":"L_2Ih88Y2yU",
+                    "Game's impression on people":"8ORcSYqhqZg"
+                }
             },
-            "description":"A fun take on the whole Virat Kohli vs Gautam Gambhir fight at the IPL that went viral on news channels"
+            "technology":[
+                "Unity 3D",
+                "Blender 3D",
+                "Face Builder",
+                "Photoshop",
+                "WebGL",
+                "Github pages"
+            ],
+            "learnings":[
+                "Building faces from image using face builder addon in Blender",
+                "Publishing for WebGL platform",
+                "Production of reels and promoting it through different social medias",
+                "Animation and third person controls",
+                "AI user training and implementing"
+            ],
+            "tag":"Made with Unity 3D",
+            "description":"A fun take on the whole Virat Kohli vs Gautam Gambhir fight at the IPL that went viral on news channels. I made this project in 4 days before the trend dies out. Learned to build 3D faces from a photo, publishing procedures for the Web, and content creation for marketing",
+            "details":"In an Indian Cricket Tournament (aka IPL), the biggest player of the decade Virat Kohli and the coach of the opposite team Gautam Gambhir got into a heated argument. Seeing this, there was a flood of new memes. So I also decided to get my hands on creating one within 4 days.<br/><br/>I decided to make an intentionally bad games that can be quickly grabbed memes and media... and it worked! After publishing the reel, Social Media shared it quickly and the game got over 12k plays.<br/><br/>A few news media company wrote articles about it which can be found here:<ul><li><a href='https://www.hindustantimes.com/trending/virat-kohli-gautam-gambhirs-spat-turned-into-a-game-watch-101683547156500.html'>Hindustan Times</a></li><li><a href='https://www.ndtv.com/offbeat/watch-coder-turns-virat-kohli-gautam-gambhir-spat-into-a-game-internet-amused-4014903'>NDTV News</a></li><li><a href='https://www.news18.com/viral/virat-kohli-vs-gautam-gambhir-someone-turned-duos-spat-into-a-game-and-fans-are-here-for-it-7748419.html'>News18</a></li><li><a href='https://www.businesstoday.in/technology/news/story/on-field-fight-to-online-showdown-virat-kohli-and-gautam-gambhirs-fight-inspires-new-video-game-heres-how-to-play-380538-2023-05-09'>BusinessToday</a></li><li><a href='https://www.timesnownews.com/videos/viral-videos/video-developer-creates-game-so-virat-kohli-and-gautam-gambhir-can-fight-properly-video-100075531'>TimesNow</a></li></ul><br/><br/>Here is a link to the reel that got me famous <a href='https://www.instagram.com/p/Cr5O-8mAnpr/'>on instagram</a>"
+        },
+        {
+            "id":"bhim-2077",
+            "name":"Bheem 2077",
+            "role":"an Indie Project",
+            "duration":"November 2021 - January 2021",
+            "media":{
+                "youtubeID":"RGMGUokXbkU",
+                "imgAlt":"Bhim 2077",
+                "thumbnail":"/img/projects/bhim-2077/bhim2077.png",
+                "playableUrl":"https://aeroandzero.itch.io/bhim-2077",
+                "images":{
+                    "Main menu":"/img/projects/bhim-2077/mainmenu.png",
+                    "A Cricket minigame":"/img/projects/bhim-2077/minigame.png",
+                    "Open world preview 1":"/img/projects/bhim-2077/open1.png",
+                    "Open world preview 2":"/img/projects/bhim-2077/open2.png",
+                    "Open world preview 3":"/img/projects/bhim-2077/open3.png"
+                },
+                "videos":{
+                    "Game devlog 1 (unlisted)":"sJF-pDqL8iY",
+                    "Game devlog 2 (unlisted)":"8LDu1x4J_Mo",
+                    "Demo reel":"RGMGUokXbkU"
+                }
+            },
+            "tag":"Made with Unity 3D",
+            "technology":[
+                "Unity 3D",
+                "Blender 3D",
+                "Photoshop",
+                "Mixamo",
+                "Shaders"
+            ],
+            "learnings":[
+                "Scultping characters and retopologizing them for the game",
+                "Adding different animations through mixamo",
+                "Third person character controls",
+                "World building and house building",
+                "Creating water shader and leaves shader",
+                "Utlizing physics for the cricket minigame",
+                "Building modular and scalable UI"
+            ],
+            "description":"A fan adaption game of an Indian animated cartoon show 'Chhota Bheem'. This project taught me World Building, Model creation and sculting in Blender, Animation and rigging from Mixamo, and UI creation from Photoshop.",
+            "details":"A fan adaption game of an Indian animated cartoon show 'Chhota Bheem'. Goal of this project was to create an open world fantasy where the main character 'bheem' meets his friends and family, and goes on the adventure of defeating his enemies. I didn't complete the project ofcourse as I was just starting out.<br/><br/>I made a few devlogs on Youtube which got a above 100k views before getting a copyright strike from the original creators of the cartoon series 'Green Gold'. But the fanbase still requests update to this game :)<br/><br/>This game also has a minigame where every character plays cricket. It was an adaption of EA Sports' Cricket 07 game. I got to learn many concepts of physics from implementing it."
+        }
+    ],
+    "mobile":[
+        {
+            "id":"boxyball",
+            "name":"Boxyball",
+            "role":"an Indie Project (abandoned)",
+            "duration":"May 2019 - Jul 2019",
+            "media":{
+                "youtubeID": "TZoeBUBl3S4",
+                "imgAlt":"Boxyball",
+                "thumbnail" : "/img/projects/boxyball/boxyball.png",
+                "playableUrl":"https://aeroandzero.itch.io/boxyball",
+                "images":{
+                    "Tracking development with trello board":"/img/projects/boxyball/trello.png",
+                    "Preview 1" : "/img/projects/boxyball/1.jpg",
+                    "Preview 2" : "/img/projects/boxyball/2.jpg",
+                    "Preview 3" : "/img/projects/boxyball/bluegoal.jpg",
+                    "Preview 4" : "/img/projects/boxyball/redshoot.jpg"
+                },
+                "videos":{
+                    "Gameplay demo":"TZoeBUBl3S4",
+                    "Neon Hour (Game Soundtrack)":"RXAzSlpkAWA",
+                    "Main Menu Theme (Game Soundtrack)":"ysp6D6aTU5g"
+                }
+            },
+            "tag": "Made with Unity 3D",
+            "technology":[
+                "Unity 3D",
+                "Blender 3D",
+                "Photoshop",
+                "FL Studio (Soundtrack)",
+                "Mobile Touch Controls"
+            ],
+            "learnings":[
+                "Compositing my own soundtrack for the project using FL Studio",
+                "Learning about Unity physics and how to combat extremely fast-moving objects",
+                "Designing posters for the game and the soundtrack via rendering",
+                "Making of UI components for mobile",
+                "Optimizing models for mobile",
+                "Character movement for a platformer type game"
+            ],
+            "description" : "There are two teams where each player control their neon vehicle to navigate the ball and score a goal. I created soundtracks and posters with FL Studio and Photoshop. Tracking of the development cycle was done using trello.",
+            "details":"Heavily inspired by rocket league, the aim of this project was to create a vehicle based soccer game for Mobile devices. But here the shape of the vehicles are in a way that allows to player to take hold of the ball for long time opting for creative and new gameplays.<br/><br/>I was a beginner when I started this indie project which got me to learn not only blender and unity but also FL studio and Photoshop like it is a fully AAA game.<br/><br/>This project was later abandoned due to lack of ideas and getting new projects. However, you can still see my <a href='https://trello.com/b/TRN4gOZY/boxyball'>trello board here</a> with which I used to track my progress"
+        },
+        {
+            "id":"bird-view",
+            "name":"Bird View",
+            "role":"an Indie Project",
+            "duration":"February 2023",
+            "media":{
+                "youtubeID": "Skmo9ZzrETc",
+                "imgAlt":"Bird view",
+                "thumbnail" : "/img/projects/bird-view/birdview.png",
+                "playableUrl":"https://aeroandzero.itch.io/bird-view",
+                "images":{
+                    "Main menu" : "/img/projects/bird-view/birdview.png",
+                    "Choose a mode":"/img/projects/bird-view/mode.png",
+                    "Map view":"/img/projects/bird-view/game.png"
+                },
+                "videos":{
+                    "Bird view demo video": "Skmo9ZzrETc"
+                }
+            },
+            "tag": "Made with Unity 3D",
+            "technology":[
+                "Unity 3D",
+                "SketchFab",
+                "Mobile Touch Controls"
+            ],
+            "learnings":[
+                "Implementing orbit controls with touch screen",
+                "Adding labels using billboard technique"
+            ],
+            "description":"A map viewer for mobile where users can use their finger with multitouch screen to orbit and explore different areas of the 3D object",
+            "details":"With this app, you can view a map in 3D on your mobile device. You can navigate around the 3D object using pinch, pan, and zoom controls by your two fingers.<br/><br/>Project's goal was to learn the process of publishing an app on the mobile platform and learning the mechanism of touch controls."
+        },
+        {
+            "id":"block-it",
+            "name":"Block It",
+            "role":"an Indie Project",
+            "duration":"Dec 2021",
+            "media":{
+                "youtubeID": "kQTT2k3yzM8",
+                "imgAlt":"Block it",
+                "thumbnail" : "/img/projects/block-it/block_it.png",
+                "playableUrl":"https://aeroandzero.itch.io/block-it",
+                "images":{
+                    "Game start" : "/img/projects/block-it/start.png",
+                    "Tap to block" : "/img/projects/block-it/play.png",
+                    "Game end" : "/img/projects/block-it/end.png"
+                },
+                "videos":{
+                    "Gameplay preview": "kQTT2k3yzM8"
+                }
+            },
+            "tag": "Made with Unity 3D",
+            "technology":[
+                "Unity 3D"
+            ],
+            "learnings":[
+                "Speed and difficulty calculation with time period",
+                "UI Design for mobile",
+                "C# Scripting and animation"
+            ],
+            "description" : "A hypercasual made for learning purposes where you have to keep the disc trapped inside the box by tapping.",
+            "details":"A hypercasual made for learning purposes where you have to keep the disc trapped inside the box by tapping.<br/><br/>A box with one end open will close when you tap on the screen. There is a disc inside that box. Your goal is to prevent the disc from exiting. The more time you save it, the more points you get."
+        }
+    ],
+    "shaders":[
+        {
+            "id":"strawberry-b3d",
+            "name":"Strawberry shader",
+            "role":"an Indie Artist",
+            "duration":"May 2020",
+            "media":{
+                "imgUrl":"/img/projects/shaders/strawberry_shader.jpg",
+                "imgAlt":"Strawberry shader",
+                "thumbnail" : "/img/projects/shaders/strawberry_shader.jpg",
+                "playableUrl":"https://www.instagram.com/p/B_p9JXkHudL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+                "images":{
+                    "Strawberry shader" : "/img/projects/shaders/strawberry_shader.jpg"
+                },
+                "videos":{
+                }
+            },
+            "tag": "Made with Blender 3D",
+            "description" : "A shader to give an effect of a strawberry aka seeds around the strawberry",
+            "details":"A shader to give an effect of a strawberry aka seeds around the strawberry"
+        }
+    ],
+    "geometrynodes":[
+        {
+            "id": "procedural-jalebi",
+            "name" : "Procedural Jalebi",
+            "role":"an Indie Artist",
+            "duration":"July 2023",
+            "media":{
+                "youtubeID": "u68tbpal1PA",
+                "imgAlt":"Jalebi shader",
+                "thumbnail" : "/img/projects/jalebi-nodes/jalebi.png",
+                "playableUrl":"https://www.instagram.com/p/DAC8a0OAskj/?img_index=1",
+                "images":{
+                    "Jalebi preview 1" : "/img/projects/jalebi-nodes/jalebi.png",
+                    "Jalebi preview 2" : "/img/projects/jalebi-nodes/jalebi2.png",
+                    "Geometry node setup" : "/img/projects/jalebi-nodes/geo_nodes.png",
+                    "Shader setup for jalebi" : "/img/projects/jalebi-nodes/jalebi_shader.png",
+                    "Oil bubbles geometry node setup" : "/img/projects/jalebi-nodes/bubble_nodes.png",
+                    "Wok Fire shader setup" : "/img/projects/jalebi-nodes/fire_shader.png"
+                },
+                "videos":{
+                    "Node preview in viewport": "u68tbpal1PA"
+                }
+            },
+            "tag": "Made with Blender 3D",
+            "learnings":[
+                "Geometry nodes concepts like subdivide, finding closest point, manipulating positions and many more",
+                "Combining different shaders and applying them effectively"
+            ],
+            "description" : "Jalebi is an Indian dessert which is made by deep frying a type of liquid mixture directly on the hot oil. This project was made to capture that effect.",
+            "details":"Jalebi is an Indian dessert which is made by deep frying a type of liquid mixture directly on the hot oil. This project was made to capture that effect.<br/><br/>You can make jalebis by going into the pencil drawing tool and drawing the lines as you like. You can checkout the entire <a href='https://imgur.com/a/loYsfEs'>node setup here</a>"
         }
     ]
 }

@@ -6,6 +6,7 @@ export default function ProjectList(props){
         <Playable 
         key={i}
         projectName={project.name}
+        imgUrl={project.media.imgUrl}
         youtubeID={project.media.youtubeID}
         imgAlt={project.media.imgAlt}
         company={project.company}

@@ -103,7 +103,7 @@ export default function ProjectDetail(props){
                     }
                     
                     { /* Learning outcomes */
-                    props.technology !== undefined ?
+                    props.learnings !== undefined ?
                     <div className='inline p-20 border-white border-1 b-radius-10 mobile-w-full'>
                         <span className='block font-12em bold mb-10'>Learning outcomes: </span>
                         <ul className='list-20px'>
@@ -115,7 +115,7 @@ export default function ProjectDetail(props){
                     {/* Description */}
                     <div className='inline p-20 border-white border-1 b-radius-10 w-60 mobile-w-full'>
                         <span className='block font-12em bold mb-10'>Description:</span>
-                        <JsxParser className='list-20px' jsx={props.description ?? "Not provided"} />
+                        <JsxParser className='list-20px show-link' jsx={props.description ?? "Not provided"} />
                     </div>
                 </div>
 
@@ -139,7 +139,7 @@ export default function ProjectDetail(props){
                         {
                             (props.videos !== undefined) ?
                             Object.keys(props.videos).map((cap,i) => 
-                                <figure key={i}>
+                                <figure key={i} className='mobile-w-full'>
                                     <iframe width={16*35} height={9*35} className='mobile-w-full' src={'https://www.youtube.com/embed/' + props.videos[cap] + '?si=4qG4d9bgPmb85v40'} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                                     <figcaption>{cap}</figcaption>
                                 </figure>

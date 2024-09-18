@@ -1,9 +1,9 @@
 {
     "category_name":[
         {
-            "id": "",
-            "name" : "",
-            "company": "",
+            "id":"",
+            "name":"",
+            "company":"",
             "role":"",
             "duration":"",
             "media":{

@@ -6,6 +6,7 @@ import Header from './components/common/Header';
 import ProjectDetail from "./components/common/ProjectDetail";
 
 import data from './data/projects.json';
+import Projects from "./components/specific/Projects";
 
 let projects = []
 for(var key in data){
@@ -51,6 +52,16 @@ const router = createBrowserRouter([
 				)
 			}
 		})
+	},
+	{
+		path: "/projects",
+		element: (
+			<>
+			<Header />
+			<Projects />
+			<Footer />	
+			</>
+		)
 	},
 	{
 		path: "*",

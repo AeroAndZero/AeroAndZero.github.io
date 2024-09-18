@@ -6,7 +6,7 @@
     --background-elevated: rgba(40,40,40);
     --background-highlight: rgba(60,60,80);
     --thumbnail: #902828;
-    --link: #76bbe6;
+    --link: #698fff;
 }
 
 html{
@@ -660,6 +660,10 @@ a:hover{
 
 .z--3{
     z-index: -3;
+}
+
+.show-link a{
+    color: var(--link);
 }
 
 /* media queries */

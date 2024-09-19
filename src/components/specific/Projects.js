@@ -14,12 +14,12 @@ export default function Projects(){
             <div tabName='⭐ Featured'>
                 <ProjectList tabName='VR' data={[data.vr[0], data.vr[2], data.geometrynodes[0], data.desktop[2], data.mobile[0]]}/>
             </div>
-            <TabSelection className='flex flex-center flex-column' tabName='Unity'>
+            <TabSelection tabName='Unity' className='flex flex-center flex-column' tabLabelClassName='bg-dark-gray b-radius-10'>
                 <ProjectList tabName='VR' data={data.vr}/>
                 <ProjectList tabName='Mobile' data={data.mobile}/>
                 <ProjectList tabName='Desktop' data={data.desktop}/>
             </TabSelection>
-            <TabSelection className='flex flex-center flex-column' tabName='Blender'>
+            <TabSelection tabName='Blender' className='flex flex-center flex-column' tabLabelClassName='bg-dark-gray b-radius-10'>
                 <ProjectList tabName='Geometry Nodes' data={data.geometrynodes}/>
                 <ProjectList tabName='Shaders' data={data.shaders}/>
                 <div tabName='Renders'>

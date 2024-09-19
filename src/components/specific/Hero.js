@@ -2,6 +2,7 @@ import '../../styles/common.css';
 import '../../styles/Hero.css';
 import heroVideo from '../../assets/images/portfolio_bg.mp4'
 import imgScrollDown from '../../assets/images/icon_scroll_down.png';
+import { HashLink } from 'react-router-hash-link';
 
 export default function Hero(){
     
@@ -14,9 +15,9 @@ export default function Hero(){
                     <div className='text-subtitle mobile-font-15em m-0 p-0'>Game Developer</div>
                 </div>
                 <div className='absolute bottom-40'>
-                    <a href='#tee'>
+                    <HashLink to={'#tee'}>
                     <img src={imgScrollDown} alt='scroll down' width={32} height={32}/>
-                    </a>
+                    </HashLink>
                 </div>
 
                 <video playsInline autoPlay muted loop id="heroVideo" className='fullscreen-video'>

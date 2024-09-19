@@ -5,6 +5,7 @@
     --background-white-glass: rgba(200, 200, 200, 0.75);
     --background-elevated: rgba(40,40,40);
     --background-highlight: rgba(60,60,80);
+    --background-dark-gray: rgb(28, 28, 28);
     --thumbnail: #902828;
     --link: #698fff;
 }
@@ -601,6 +602,10 @@ a:hover{
 
 .bg-black-glass{
     background-color: var(--background-black-glass);
+}
+
+.bg-dark-gray{
+    background-color: var(--background-dark-gray);
 }
 
 .bg-thumbnail{

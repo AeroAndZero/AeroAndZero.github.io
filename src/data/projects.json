@@ -4,37 +4,88 @@
             "id": "total-knee-replacement",
             "name" : "Total Knee Replacement Surgery",
             "company": "MadVR Solutions",
+            "role":"VR Developer (Team Lead)",
+            "duration":"May 2023 - Dec 2023",
             "media":{
                 "youtubeID": "pexUZed36m4",
                 "imgAlt":"Total Knee Replacement Surgery",
                 "thumbnail" : "https://i.ytimg.com/vi/pexUZed36m4/hqdefault.jpg",
                 "playableUrl":"https://youtu.be/pexUZed36m4",
                 "images":{
-                    "Transparent Shader" : "/img/projects/tkr/tkr_transparent_shader.png"
+                    "Transparent Shader" : "/img/projects/tkr/tkr_transparent_shader.png",
+                    "Drilling interaction with haptics":"/img/projects/tkr/drilling.png",
+                    "Hammering nails with haptics":"/img/projects/tkr/hammer.png",
+                    "Incision animation":"/img/projects/tkr/incision.png",
+                    "In-between Quiz for better learning":"/img/projects/tkr/quiz.png",
+                    "Saw interaction with haptics":"/img/projects/tkr/saw.png",
+                    "Testing the rigidity with reverse kinematics":"/img/projects/tkr/testing.png"
                 },
                 "videos":{
+                    "Gameplay preview":"pexUZed36m4",
                     "Marking using shaders": "XTqUE8DtYNw"
                 }
             },
             "tag": "Made with Unity 3D",
-            "description" : "Revolutionizing surgical training with the most immersive, realistic and medically accurate portable surgical simulator",
-            "role":"VR Developer (Team Lead)",
-            "duration":"May 2023 - Dec 2023",
             "technology":[
                 "Unity 3D",
                 "Blender",
-                "C#",
+                "Figma",
                 "OpenXR SDK",
-                "Shader graph",
+                "Quest 2 Haptics",
+                "Shader Graph",
                 "Reverse Kinematics",
+                "Web Requests",
                 "Photoshop"
             ],
             "learnings":[
                 "Controlling animations based on hand pos and events",
-                "Optimizing models for the VR",
-                "Using shader graphs for utilizing effects rather than geometries"
+                "Optimizing models and using Unity profiler for the VR",
+                "Using shader graphs for utilizing effects rather than geometries",
+                "Import-Export pipelines for Maya",
+                "Animating objects with shape keys and bone weights",
+                "Generating realistic haptics for different machines like drilling and saw"
             ],
-            "details":"<b>bro wtf</b><h1>is this</h1>"
+            "description" : "This VR simulation allows junior surgeons to have an hands-on accurate surgical training for total knee replacement. My best ever project where I used advance tech like Reverse Kinematics, Shader graphs, Shape keys, and Interactive UIs",
+            "details":"This VR simulation allows junior surgeons to have an hands-on accurate surgical training for total knee replacement. My best ever project where I used advance tech like Reverse Kinematics, Shader graphs, Shape keys, and Interactive UIs<br/><br/>The TKR surgery (and this app) has total of 14 steps. Each step, from incision to sawing/drilling to fitting implants and testing their rigidity, can be carried out in detail and at utmost precision. Animations, ambience, and effects are heavily optimized for VR and are as realistic as possible.<br/><br/>User's activity such as time and mistakes are captured and their analysis are generated to the user while sending them to the database. They are also given hints and actual surgery videos for more insights.<br/><br/>User interface, experience, and story board were designed on Figma. Models were designed in Maya and later on blender and were imported with shape keys and animations."
+        },
+        {
+            "id":"alphabet-b",
+            "name":"Alphabet B - VR Walkthrough",
+            "company":"Exposit ARVR",
+            "role":"VR Developer",
+            "duration":"Mar 2023 - May 2023",
+            "media":{
+                "imgUrl": "/img/projects/alphabet-b/alphabet_b.png",
+                "imgAlt":"Alphabet B",
+                "thumbnail" : "/img/projects/alphabet-b/alphabet_b.png",
+                "playableUrl":"https://www.linkedin.com/posts/devang-sharma-b2910022a_connections-activity-7176214065780846592-gOC_?utm_source=share&utm_medium=member_desktop",
+                "images":{
+                    "Importing the model from 3Ds Max":"/img/projects/alphabet-b/importing.png",
+                    "Analyzing the provided model" : "/img/projects/alphabet-b/analyzing.png",
+                    "Checking for geometry cluter":"/img/projects/alphabet-b/analyzing2.png",
+                    "Optimizing the model":"/img/projects/alphabet-b/optimizing.png",
+                    "Fixing missing textures":"/img/projects/alphabet-b/texturing.png",
+                    "Testing & Finishing":"/img/projects/alphabet-b/testing.png"
+                },
+                "videos":{
+                    "Interior Preview":"6Iev1W3X7PI"
+                }
+            },
+            "tag": "Made with Unreal Engine",
+            "technology":[
+                "Unreal Engine",
+                "3DS Max",
+                "Corona Render",
+                "Chaos FX for 3Ds Max",
+                "Blender 3D"
+            ],
+            "learnings":[
+                "Optimizing models that were originally made for Archviz",
+                "Using Nanite and Lumen in Unreal Engine for better performance",
+                "Importing and exporting from 3DS Max"
+            ],
+            "description" : "An archviz project made to show and attract potential clients giving them a real feel of the apartments. This project is unique because I used Unreal Engine and 3DS Max",
+            "details":"An archviz project made to show and attract potential clients giving them a real feel of the apartments. This project is unique because I used Unreal Engine and 3DS Max. <br/><br/>I phased much difficulty in finding the missing plugins in 3DS max when the model first came. Most of my time was spent in optimizing the model for VR. Luckily using Nanite and Lumen in Unreal engine, it saved me a lot of time.<br/><br/>A learned a lot of optimization techniques here. It wasn't difficult gameplay wise but it was technical wise. I got to learn 3DS Max and its import export pipeline which was beneficial to my career."
         },
         {
             "id":"adani-metaverse",
@@ -246,6 +297,48 @@
             ],
             "description":"A fan adaption game of an Indian animated cartoon show 'Chhota Bheem'. This project taught me World Building, Model creation and sculting in Blender, Animation and rigging from Mixamo, and UI creation from Photoshop.",
             "details":"A fan adaption game of an Indian animated cartoon show 'Chhota Bheem'. Goal of this project was to create an open world fantasy where the main character 'bheem' meets his friends and family, and goes on the adventure of defeating his enemies. I didn't complete the project ofcourse as I was just starting out.<br/><br/>I made a few devlogs on Youtube which got a above 100k views before getting a copyright strike from the original creators of the cartoon series 'Green Gold'. But the fanbase still requests update to this game :)<br/><br/>This game also has a minigame where every character plays cricket. It was an adaption of EA Sports' Cricket 07 game. I got to learn many concepts of physics from implementing it."
+        },
+        {
+            "id":"gokuldham-csgo",
+            "name":"CS GO Map: Gokuldham",
+            "role":"an Indie Project",
+            "duration":"Oct 2020",
+            "media":{
+                "youtubeID": "Atl6u1DEYf4",
+                "imgAlt":"",
+                "thumbnail" : "/img/projects/gokuldham-csgo/gokuldham_csgo.jpeg",
+                "playableUrl":"https://steamcommunity.com/workshop/filedetails/?id=2266300800",
+                "images":{
+                    "On the steam charts":"/img/projects/gokuldham-csgo/steam_charts.png",
+                    "Preview 1" : "/img/projects/gokuldham-csgo/gokuldham_csgo.jpeg",
+                    "Preview 2" : "/img/projects/gokuldham-csgo/gate.jpeg",
+                    "Preview 3" : "/img/projects/gokuldham-csgo/clubhouse.jpeg",
+                    "Preview 4" : "/img/projects/gokuldham-csgo/corner.jpeg",
+                    "Preview 5" : "/img/projects/gokuldham-csgo/bhide.jpeg",
+                    "Preview 6" : "/img/projects/gokuldham-csgo/tarak.jpeg"
+                },
+                "videos":{
+                    "Devlog video with 2Mill+ views": "Atl6u1DEYf4",
+                    "Fan gameplay video by TheFAQGuy":"ORvkHCo8ql4",
+                    "Fan gameplay video by Sunamified":"pLV9CY98ISk",
+                    "Fan gameplay video by Apocalypsh":"kUWC45_25bw"
+                }
+            },
+            "tag":"Made with Source Engine",
+            "technology":[
+                "Source Engine",
+                "Layout designing",
+                "Steam workshop assets",
+                "Photoshop"
+            ],
+            "learnings":[
+                "Using source engine and its viewports to design the map",
+                "Creating textures in photoshop",
+                "Optimizing and light baking for CS:GO game compatibility",
+                "Publishing games on steam"
+            ],
+            "description" : "The set of a famous Indian TV series 'Tarak Mehta ka Oolta Chashma' converted into a counter strike map using source engine.",
+            "details":"The set of a famous Indian TV series 'Tarak Mehta ka Oolta Chashma' converted into a counter strike map using source engine. Due to the show's popularity, the map instantly become fan's favourite receiving over <u>35k downloads</u> on steam and devlog getting <u>over 2 million views</u> on youtube.<br/><br/>For this project, I had to learn Source Engine and its tools from scratch. The total time for creating the map took around 70 hours. Designed the custom texture in photoshop and rest models are from steam's community workshop. Optimized skybox and foliage for game's performance.<br/><br/>The map got so popular that it was on steam's Most Popular page for more 1 week. The devlog was watched by many people. Not only that, Many news channels took over to write an article about the project making it news of the day! <br/>Some of the articles can be found over here:<ul><li><a href='https://www.news18.com/news/buzz/watch-taarak-mehta-ka-ooltah-chashmah-fan-creates-functional-map-of-gokuldham-society-in-csgo-3032762.html'>News18</a></li><li><a href='https://www.republicworld.com/entertainment/taarak-mehta-ka-ooltah-chashmah-fan-creates-functional-map-of-gokuldham-in-csgo-watch'>Republic World</a></li><li><a href='https://www.talkesport.com/news/gokuldham-society-map-in-csgo/'>TalkEsports</a></li></ul><br/><br/><strong>Main highlight being, it got featured by <a href='https://www.instagram.com/p/CHSwp4Wg5Hq/'>Youtube India!</a></strong>"
         }
     ],
     "mobile":[
@@ -357,6 +450,30 @@
     ],
     "shaders":[
         {
+            "id":"loki-portal",
+            "name":"Loki Portal Effect",
+            "role":"an Indie Artist",
+            "duration":"April 2022",
+            "media":{
+                "youtubeID": "XBSQ9n3Qeyo",
+                "imgAlt":"Loki Portal",
+                "thumbnail" : "/img/projects/loki-portal/loki.png",
+                "playableUrl":"https://youtube.com/shorts/XBSQ9n3Qeyo?feature=share",
+                "images":{
+                    "Preview":"/img/projects/loki-portal/loki.png"
+                },
+                "videos":{
+                    "Render":"XBSQ9n3Qeyo"
+                }
+            },
+            "tag": "Made with Blender 3D",
+            "learnings":[
+                "Use of transparency and glow with shaders"
+            ],
+            "description":"Shader showing the time travel portal from the marvel's series Loki.",
+            "details":"Shader showing the time travel portal from the marvel's series Loki."
+        },
+        {
             "id":"strawberry-b3d",
             "name":"Strawberry shader",
             "role":"an Indie Artist",
@@ -407,6 +524,58 @@
             ],
             "description" : "Jalebi is an Indian dessert which is made by deep frying a type of liquid mixture directly on the hot oil. This project was made to capture that effect.",
             "details":"Jalebi is an Indian dessert which is made by deep frying a type of liquid mixture directly on the hot oil. This project was made to capture that effect.<br/><br/>You can make jalebis by going into the pencil drawing tool and drawing the lines as you like. You can checkout the entire <a href='https://imgur.com/a/loYsfEs'>node setup here</a>"
+        },
+        {
+            "id":"procedural-moths",
+            "name":"Procedural Moths",
+            "role":"an Indie Artist",
+            "duration":"Oct 2021",
+            "media":{
+                "youtubeID": "kVLnJqih_d4",
+                "imgAlt":"Procedural Moths",
+                "thumbnail" : "/img/projects/procedural-moths/procedural_moths.png",
+                "playableUrl":"https://www.instagram.com/p/CVal_6FjNY1/?img_index=1",
+                "images":{
+                    "Geometry node setup":"/img/projects/procedural-moths/node.png",
+                    "Viewport preview":"/img/projects/procedural-moths/output.png"
+                },
+                "videos":{
+                    "Demo Video": "kVLnJqih_d4"
+                }
+            },
+            "tag": "Made with Blender 3D",
+            "learnings":[
+                "Geometry nodes to find the convex hull of the object",
+                "Subdiving and animating using geometry nodes"
+            ],
+            "description":"Replicates the effect from real life when moths move around a light source.",
+            "details":"Replicates the effect from real life when moths move around a light source.<br/><br/>It finds the convex hull of the object (here lamp) first &gt; increases the scale of it &gt; then subdivides it to have more points &gt; spawns moths around those points and animate them"
+        },
+        {
+            "id":"water-bubbles",
+            "name":"Water bubbles effect using geometry nodes",
+            "role":"an Indie Artist",
+            "duration":"April 2022",
+            "media":{
+                "youtubeID": "Pdv-rk3yTZY",
+                "imgAlt":"Water bubble effect",
+                "thumbnail" : "/img/projects/water-bubbles/water_bubbles.png",
+                "playableUrl":"https://www.instagram.com/p/CcV1t3WDlZO/?img_index=1",
+                "images":{
+                    "Geometry node setup" : "/img/projects/water-bubbles/node.png",
+                    "Viewport preview":"/img/projects/water-bubbles/output.png"
+                },
+                "videos":{
+                    "Viewport preview": "Pdv-rk3yTZY"
+                }
+            },
+            "tag": "Made with Blender 3D",
+            "learnings":[
+                "Finding the closest point on the surface",
+                "Analysing the object geometry using nodes"
+            ],
+            "description" : "Replicates the effect of an object when it is put inside water.",
+            "details":"Replicates the effect of an object when it is put inside water. Also applicable when new water is being poured into the already existing body of water (i.e. a glass of water)<br/><br/> It first finds the points on the object &gt; randomly selects a few points at some interval &gt; spawns a bubble which floats to the closest point of the cube container. "
         }
     ]
 }

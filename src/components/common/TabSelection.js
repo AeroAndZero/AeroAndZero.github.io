@@ -3,7 +3,7 @@ import '../../styles/common.css';
 
 export default function TabSelection(props){
     let elements = props.children;
-    let [tab, setTab] = useState(elements[0]);
+    let [tab, setTab] = useState(elements[props.selectionIndex] ?? elements[0]);
 
     let tabLabel = elements.map((e, i) => {
         let highlightClass = ""

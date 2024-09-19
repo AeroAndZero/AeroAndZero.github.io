@@ -70,7 +70,7 @@ export default function ProjectDetail(props){
                                     data-href={window.location.href}
                                     data-icon-px-size="32">
                                 </div>
-                                <a href={'whatsapp://send?text=Check out this project from Ayush Thakur! %0a'+ props.projectName + ' %0a🔗 ' + encodeURIComponent(window.location.href)} className='inline as-button animate-everything'>
+                                <a href={'whatsapp://send?text=Check out this project from Ayush Thakur!%0a%2a'+ props.projectName + '%2a %0a🔗 ' + encodeURIComponent(window.location.href)} className='inline as-button animate-everything'>
                                     <img src={iconWhatsapp} alt='whatsapp' width={32}/>
                                 </a>
                                 <a href={'mailto:?subject=Checkout%20this%20project%20from%20Ayush%20Thakur&body=Link to project: ' + window.location.href} className='inline as-button animate-everything'>

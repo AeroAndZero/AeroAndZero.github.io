@@ -10,7 +10,10 @@ export default function Projects(){
         <div className='font-koulen font-2em text-center'>
             Projects
         </div>
-        <TabSelection className='flex flex-center flex-column'>
+        <TabSelection className='flex flex-center flex-column' selectionIndex={1}>
+            <div tabName='⭐ Featured'>
+                <ProjectList tabName='VR' data={[data.vr[0], data.vr[2], data.geometrynodes[0], data.desktop[2], data.mobile[0]]}/>
+            </div>
             <TabSelection className='flex flex-center flex-column' tabName='Unity'>
                 <ProjectList tabName='VR' data={data.vr}/>
                 <ProjectList tabName='Mobile' data={data.mobile}/>
@@ -20,11 +23,14 @@ export default function Projects(){
                 <ProjectList tabName='Geometry Nodes' data={data.geometrynodes}/>
                 <ProjectList tabName='Shaders' data={data.shaders}/>
                 <div tabName='Renders'>
-                    <div className='text-center'>For all renders, please checkout my Instagram page <a href='https://www.instagram.com/axstrec' className='color-link' target='_blank' rel='noreferrer'>here</a></div>
-                    <br/>
-                    <a href='https://www.instagram.com/axstrec'>
-                    <img src='/img/projects/renders/insta.png' alt='Insta page showcase'/>
-                    </a>
+                    <div className='mb-20 text-center'>
+                        For all renders, please checkout my Instagram page <a href='https://www.instagram.com/axstrec' className='color-link w-fit inline' target='_blank' rel='noreferrer'>here</a>
+                    </div>
+                    <div>
+                        <a className='as-button w-fit' href='https://www.instagram.com/axstrec' target='_blank' rel='noreferrer'>
+                        <img className='w-60 m-auto block' src='/img/projects/renders/insta.png' alt='Insta page showcase'/>
+                        </a>
+                    </div>
                 </div>
             </TabSelection>
         </TabSelection>

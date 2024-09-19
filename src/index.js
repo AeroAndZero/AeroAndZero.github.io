@@ -60,7 +60,7 @@ function Pages(){
 						}/>
 					)}
 				</Route>
-				<Route key={324} path="*" element={
+				<Route key={324} path="/#/*" element={
 					<>
 					<Header />
 					<E404 />

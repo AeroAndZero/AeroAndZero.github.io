@@ -1,3 +1,4 @@
+import { HashLink } from 'react-router-hash-link';
 import '../../styles/common.css';
 import '../../styles/Scroller.css';
 import { useState, useEffect } from 'react';
@@ -25,9 +26,9 @@ export default function Scroller(props){
     }, [hidden]);
     
     let elements = props.elements.map((element, index) => (
-        <a href={element.href} onClick={() => setSelect(index)} className={'text-center b-radius-10 p-10 ' + (select === index ? 'bg-anchor' : '')} key={index}>
+        <HashLink to={'/'+element.href} onClick={() => setSelect(index)} className={'text-center b-radius-10 p-10 ' + (select === index ? 'bg-anchor' : '')} key={index}>
             {element.name}
-        </a>
+        </HashLink>
     ))
 
     return(

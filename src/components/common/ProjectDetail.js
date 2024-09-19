@@ -15,6 +15,7 @@ export default function ProjectDetail(props){
     let [share, setShare] = useState('hide');
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         const script = document.createElement("script")
         script.src = "https://teams.microsoft.com/share/launcher.js"
         script.async = true
@@ -23,7 +24,7 @@ export default function ProjectDetail(props){
             // clean up the script when the component in unmounted
             document.body.removeChild(script)
         }
-    }, [share])
+    }, [])
 
     return (
         <div className='relative'>
@@ -129,8 +130,8 @@ export default function ProjectDetail(props){
                         }
                         {
                             (props.images !== undefined) ?
-                            Object.keys(props.images).map(cap => 
-                                <figure>
+                            Object.keys(props.images).map((cap,i) => 
+                                <figure key={i}>
                                     <img src={props.images[cap]} alt={cap} className='non-dragable'/>
                                     <figcaption>{cap}</figcaption>
                                 </figure>        

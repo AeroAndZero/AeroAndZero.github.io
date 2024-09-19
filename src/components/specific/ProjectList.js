@@ -10,7 +10,7 @@ export default function ProjectList(props){
         youtubeID={project.media.youtubeID}
         imgAlt={project.media.imgAlt}
         company={project.company}
-        projectUrl={'/project/' + project.id}>
+        projectUrl={'#/project/' + project.id}>
             {project.description}
         </Playable>
     ));

@@ -12,7 +12,7 @@ export default function WorkExperience(props){
             company='MadVR Solutions'
             location='Gujarat, India'
             duration='Mar 2023 - Feb 2024 • 1 year'>
-                Made a immersive VR Experience to train junior surgeons on Knee Replacement Surgery with assistive tutorials and feedback.
+                Designed an immersive virtual reality simulation to facilitate the training of junior surgeons in knee replacement surgery, including interactive tutorials and performance metrics. This innovative approach provided a safe and controlled environment for surgical skill development.
             </Career>
 
             <img src={UpArrow} alt='Up arrow'/>
@@ -22,7 +22,7 @@ export default function WorkExperience(props){
             company='Exposit Immersive'
             location='Gujarat, India'
             duration='Jan 2023 - Feb 2024 • 1 year 3 months'>
-                Built industry standard training simulations in VR to help multiple companies train their employees better with advance assessment of their performance. Also helped the firm improve their existing application efficiency and workflow along with:
+                Developed industry-standard virtual reality training simulations to enhance employee training and performance assessment for multiple companies. Additionally, contributed to the optimization of existing applications and workflows, resulting in improved efficiency with:
                 <ul className='list'>
                     <li>Optimization using tools like Unity Profiler</li>
                     <li>Reduced poly count and redundant model details for VR</li>
@@ -37,7 +37,7 @@ export default function WorkExperience(props){
             company='Blanck Denim'
             location='Gujarat, India'
             duration='Oct 2021 - Nov 2022 • 1 year 2 months'>
-                Worked as a web developer at Blanck Denim, where I helped the company build a website to sell and manage its products online. Simultaneously, I gained experience in web programming languages like HTML, CSS, Javascript, and Shopify's template language Liquid. I also gained insight into how inventory is managed, how payments are done, and how products are delivered to the customer at home.
+                As a web developer at Blanck Denim, I contributed to the development of an e-commerce platform. Through this experience, I acquired proficiency in web programming languages such as HTML, CSS, JavaScript, and Liquid. Additionally, I gained valuable knowledge of inventory management, payment processing, and order fulfillment.
             </Career>
 
             <img src={UpArrow} alt='Up arrow'/>
@@ -47,7 +47,7 @@ export default function WorkExperience(props){
             company='Parth Tank Institute'
             location='Gujarat, India'
             duration='Jul 2019 - Nov 2019 • 5 months'>
-                I worked as a part-time tutor at Parth Tank institute, where I mentored 11th and 12th-grade students regarding their mathematics. During this part-time job, I strengthened my math skills and helped students along the way.
+                I served as a part-time mathematics tutor at Parth Tank Institute, where I provided guidance to eleventh and twelfth-grade students. Through this role, I honed my mathematical abilities and supported students in their academic pursuits.
             </Career>
         </div>
     )

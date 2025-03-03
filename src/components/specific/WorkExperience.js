@@ -7,7 +7,7 @@ export default function WorkExperience(props){
         <div className='flex flex-center flex-column mt-80 mb-40'>
             <a id='workExperience' href='#workExperience'> </a>
             <div className='font-2em font-koulen'>Work Experience</div>
-            <Career companyLogoUrl='https://media.licdn.com/dms/image/v2/D4D0BAQHMLDt0UotoIg/company-logo_200_200/company-logo_200_200/0/1680925613776/madvr_solutions_logo?e=1732752000&v=beta&t=hKrBFrLgOl-2ZkBLBs57Wsw27JpYUYppVVGySHWkMq0'
+            <Career companyLogoUrl='https://thedirectory.thevrara.com/admin/uploads/organization/thumbs/MadVR_Logo_High_Res1.png'
             role='VR Developer (Team Lead)' 
             company='MadVR Solutions'
             location='Gujarat, India'
@@ -17,7 +17,7 @@ export default function WorkExperience(props){
 
             <img src={UpArrow} alt='Up arrow'/>
             
-            <Career companyLogoUrl='https://media.licdn.com/dms/image/v2/D4E0BAQGt2LAipTdMdA/company-logo_200_200/company-logo_200_200/0/1722608015244/expositarvr_logo?e=1732752000&v=beta&t=ljQxsPN8XrQyGJ8ZVpVxGRLYTLAQAvsY_vRxsSq43Xs'
+            <Career companyLogoUrl='https://media.licdn.com/dms/image/v2/D4E0BAQGt2LAipTdMdA/company-logo_200_200/company-logo_200_200/0/1722608015244/expositarvr_logo?e=2147483647&v=beta&t=RmpY_l7eN7_NjI1T783q7h-Fwqp1Lej1hSKCBArCqWg'
             role='Game Developer (VR/AR)' 
             company='Exposit Immersive'
             location='Gujarat, India'
@@ -32,7 +32,7 @@ export default function WorkExperience(props){
 
             <img src={UpArrow} alt='Up arrow'/>
             
-            <Career companyLogoUrl='https://media.licdn.com/dms/image/v2/D4D0BAQHRwGOsnVmidw/company-logo_200_200/company-logo_200_200/0/1665998638828?e=1732752000&v=beta&t=I0Qq7ekzCvToHKLtmVL2njml2RZ_MrTT9dLGWRgv02I'
+            <Career companyLogoUrl='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7-YHXQNm7ytKdzy6WEKHOgf3efuTmIjg5mQ&s'
             role='Shopify Developer (freelance)'
             company='Blanck Denim'
             location='Gujarat, India'
